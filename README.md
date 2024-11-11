@@ -6,7 +6,7 @@ This project is a simple expense tracker application built using Flask for the b
 
 - **Backend**: Flask with Strawberry GraphQL for managing CRUD operations on expenses.
 - **Database**: SQLite, managed with SQLAlchemy ORM.
-- **Frontend**: React (in progress) to provide a user interface for interacting with expenses.
+- **Frontend**: React to provide a user interface for interacting with expenses.
 
 ## Project Structure
 
@@ -49,9 +49,6 @@ or
 2.	Access the GraphQL Playground:
 Navigate to http://127.0.0.1:5000/graphql/expenses in your browser to test GraphQL queries and mutations.
 
-
-#### Frontend Setup (React)
-    In progress
 
 
 ## GraphQL API Documentation
@@ -153,6 +150,11 @@ mutation {
   deleteExpense(id: 1)
 }
 ```
+
+
+#### Frontend Setup (React)
+    In progress
+
 
 
 ## License
